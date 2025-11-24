@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "assignedto": "User1",
+      "status": "Completed",
+      "duetodate": "2025-11-12T18:30:00.000Z",
+      "priority": "Low",
+      "description": "This task is good",
+      "id": "f8fe"
+    },
+    {
+      "assignedto": "User2",
+      "status": "In Progress",
+      "duetodate": "2025-11-05T18:30:00.000Z",
+      "priority": "High",
+      "description": "This task is good",
+      "id": "59ce"
+    },
+    {
+      "assignedto": "User3",
+      "status": "Not Started",
+      "duetodate": "2025-11-12T18:30:00.000Z",
+      "priority": "Low",
+      "description": "This task is not good",
+      "id": "0ed4"
+    },
+    {
+      "assignedto": "User4",
+      "status": "In Progress",
+      "duetodate": "2025-11-05T18:30:00.000Z",
+      "priority": "Normal",
+      "description": "This task is good",
+      "id": "7aa5"
+    }
+  ]
+}
